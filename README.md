@@ -8,6 +8,7 @@
   * artifactId: maven-archetype-quickstart
   * version: 1.4
 ### Dependencies
+https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
 * Scopes
   * compile
   * provided
