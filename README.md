@@ -1,4 +1,5 @@
 # maven-fundamentals
+* Build section is where we make customized changes
 
 ### create a Maven project in Intellij
 * New --> Project --> Maven --> select "Create from archetype" --> select "maven-archetype-quickstart"
@@ -6,3 +7,13 @@
   * groupId: org.apache.maven.archetypes
   * artifactId: maven-archetype-quickstart
   * version: 1.4
+### Dependencies
+* Scopes
+  * compile
+  * provided
+  * runtime: opposite of provided. Dynamically loaded jar
+  * test
+  * system
+  * import
+  * 
+  
