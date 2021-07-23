@@ -15,5 +15,7 @@
   * test
   * system
   * import
-  * 
+* POM dependency
+
+* If the project is copied. Need right click on pom.xml to "Add as a Maven Project" in Intellij
   
