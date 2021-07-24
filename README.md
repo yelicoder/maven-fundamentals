@@ -52,3 +52,6 @@ https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanis
 * create pom.xml file
 * Reload project
 * To load two maven projects in one Intellij window: Open one project, then go to Maven view and click on "+" to load the other project
+ 
+ ### Effective POM
+ * Inherit settings from SuperPOM that comes from Maven installation
