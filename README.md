@@ -35,9 +35,9 @@ https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanis
  * JavaDoc Plugin: Package phase
  
  
-#### Goals
+### Goals
 * clean, compile, test, package, install, deploy
-#### Phases
+### Phases
 * validate: Validate project and structure
 * compile: compile the source code
 * test: test the compiled code
@@ -46,4 +46,7 @@ https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanis
 * verify: run checks to verify integrity
 * install: install package in local repo
 * deploy: copy package to remote repository
-#### 
+### convert a Java project to a Maven project
+* create pom.xml file
+* Reload project
+* To load two maven project in one Intellij window: Open one project, then go to Maven view and click on "+" to load the other project
