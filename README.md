@@ -19,6 +19,8 @@ https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanis
 * POM dependency
 
 * If the project is copied. Need right click on pom.xml to "Add as a Maven Project" in Intellij
+
+* Dependency Hierarchy in Intellij: in Maven view, expand dependencies
   
 ### Plugin Repository
 * repository for plugins
