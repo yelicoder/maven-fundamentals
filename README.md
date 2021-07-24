@@ -22,3 +22,28 @@ https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanis
   
 ### Plugin Repository
 * repository for plugins
+
+### Plugins
+* compiler plugin
+  * invokes javac
+  * defaults to older version of java: java 1.7
+  * <configuration><release> to overwrite java version. Also for, memory, source/target
+ * Jar plugin
+ * Source plugin: package source code
+   * Execution, goal, jar
+ * Plugins vs PluginManagement. Use plugins. Use PluginManagement only in parent pom.
+ * JavaDoc Plugin: Package phase
+ 
+ 
+#### Goals
+* clean, compile, test, package, install, deploy
+#### Phases
+* validate: Validate project and structure
+* compile: compile the source code
+* test: test the compiled code
+* package: package the code in the specified package type
+* integration-test: deploy and run integration tests
+* verify: run checks to verify integrity
+* install: install package in local repo
+* deploy: copy package to remote repository
+#### 
